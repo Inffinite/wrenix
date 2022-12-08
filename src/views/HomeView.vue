@@ -3,6 +3,7 @@ import { routerViewLocationKey } from 'vue-router';
 import Circle from '../components/icons/Circle.vue';
 import Nav from '../components/Nav.vue';
 import Landing from '../components/Landing.vue';
+import Reviews from '../components/Reviews.vue';
 // import { Rive, Layout } from "@rive-app/canvas";
 import { ref, onMounted } from "vue";
 
@@ -22,6 +23,7 @@ import { ref, onMounted } from "vue";
     <div class="home">
       <Nav />
       <Landing />
+      <Reviews />
     </div>
   </main>
 </template>
