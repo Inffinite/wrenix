@@ -16,8 +16,6 @@ import { ref, onMounted } from "vue";
 // })
 </script>
 
-<!-- Watch Anon again -->
-
 <template>
   <main>
     <div class="home">
