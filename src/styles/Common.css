@@ -1,19 +1,35 @@
 @import './fonts.css';
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media only screen {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hire-btn {
+        outline: none;
+        border: none;
+        /* background-color: #AE9935; */
+        background: linear-gradient(90.07deg, #398C7A -2.4%, rgba(255, 181, 16, 0.74) 140.77%);
+        border-radius: 50px;
+        padding: 12px 100px;
+        font-family: "R-Bold";
+        color: white;
+        font-size: 20px;
+    }
 }
 
-.hire-btn {
-    outline: none;
-    border: none;
-    /* background-color: #AE9935; */
-    background: linear-gradient(90.07deg, #398C7A -2.4%, rgba(255, 181, 16, 0.74) 140.77%);
-    border-radius: 50px;
-    padding: 12px 100px;
-    font-family: "R-Bold";
-    color: white;
-    font-size: 20px;
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    .hire-btn {
+        outline: none;
+        border: none;
+        /* background-color: #AE9935; */
+        background: linear-gradient(90.07deg, #398C7A -2.4%, rgba(255, 181, 16, 0.74) 140.77%);
+        border-radius: 50px;
+        padding: 20px 100px;
+        font-family: "R-Bold";
+        color: white;
+        font-size: 28px;
+    }
 }

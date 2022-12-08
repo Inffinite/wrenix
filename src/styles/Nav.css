@@ -1,5 +1,7 @@
+@import './fonts.css';
+
 @media only screen {
-    .nav {
+    .m-nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -14,11 +16,59 @@
         backdrop-filter: blur(10px);
     }
 
+    .d-nav {
+        display: none;
+    }
+
     .n-l {
         height: 20px;
     }
 
     .n-icon {
         height: 26px;
+    }
+}
+
+@media only screen and (min-width: 64.063em) {
+    .m-nav {
+        display: none;
+    }
+
+    .d-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        background-color: #1a1a1a3b;
+        font-family: "SFR";
+        z-index: 200;
+        backdrop-filter: blur(40px);
+        gap: 60px;
+    }
+
+    .n-l {
+        height: 20px;
+    }
+
+    .n-icon {
+        height: 26px;
+    }
+
+    .n-item {
+        color: #bbbbbb;
+        transition: 0.5s ease-in-out;
+    }
+
+    .n-item:hover {
+        cursor: pointer;
+        background: linear-gradient(90.07deg, #398C7A -2.4%, rgba(255, 181, 16, 0.74) 140.77%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
     }
 }
