@@ -1,0 +1,24 @@
+@media only screen {
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        background-color: #1a1a1a3b;
+        color: white;
+        z-index: 200;
+        backdrop-filter: blur(10px);
+    }
+
+    .n-l {
+        height: 20px;
+    }
+
+    .n-icon {
+        height: 26px;
+    }
+}
