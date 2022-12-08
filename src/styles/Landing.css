@@ -69,11 +69,82 @@
 
     span {
         font-family: 'R-Regular';
-        background: linear-gradient(90.07deg, #398C7A -2.4%, rgba(255, 181, 16, 0.74) 140.77%);
+        background: linear-gradient(90.07deg, #398C7A -2.4%, #ffb510bd 140.77%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
         text-fill-color: transparent;
+    }
+
+    .options {
+        margin-top: 50px;
+        width: 100%;
+        border-radius: 10px;
+        background-color: #1f1f1f93;
+        padding: 20px 0px;
+        border: 2px solid #252525;
+        backdrop-filter: blur(40px);
+        /* position: relative; */
+        z-index: 100;
+    }
+
+    .op-item {
+        text-align: center;
+    }
+
+    .op-icon {
+        /* fill: #398c7a; */
+        fill: #72727270;
+        height: 40px;
+        width: auto;
+    }
+
+    .op-title {
+        font-family: "R-Bold";
+        font-size: 26px;
+        /* color: white; */
+        background: linear-gradient(90.07deg, #398C7A -2.4%, #ffb510bd 140.77%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .op-subtitle {
+        font-family: "SFR";
+        font-size: 16px;
+        color: #727272;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .op-divider {
+        height: 2px;
+        /* width: 100%; */
+        margin: 15px 15px;
+        background-color: transparent;
+    }
+
+    .circle2 {
+        position: absolute;
+        bottom: 250px;
+        left: -150px;
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        background: linear-gradient(90deg, rgba(92, 182, 164, 0.78) -22.34%, rgba(255, 181, 16, 0.78) 195.43%);
+    }
+
+    .circle3 {
+        position: absolute;
+        top: 300px;
+        right: -150px;
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        background: linear-gradient(90deg, rgba(92, 182, 164, 0.78) -22.34%, rgba(255, 181, 16, 0.78) 195.43%);
     }
 }
 
@@ -153,6 +224,78 @@
         background-clip: text;
         text-fill-color: transparent;
     }
+
+    .options {
+        margin: 100px 50px;
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px 60px;
+        border: 2px solid #252525;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #1f1f1f93;
+        backdrop-filter: blur(40px);
+    }
+
+    .op-item {
+        text-align: center;
+    }
+
+    .op-icon {
+        /* fill: #398c7a; */
+        fill: #72727270;
+        height: 40px;
+        width: auto;
+    }
+
+    .op-title {
+        font-family: "R-Bold";
+        font-size: 26px;
+        /* color: white; */
+        background: linear-gradient(90.07deg, #398C7A -2.4%, #ffb510bd 140.77%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .op-subtitle {
+        font-family: "SFR";
+        font-size: 16px;
+        color: #727272;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .op-divider {
+        height: 2px;
+        /* width: 100%; */
+        margin: 15px 15px;
+        background-color: transparent;
+    }
+
+    .circle2 {
+        position: absolute;
+        bottom: 190px;
+        left: 25px;
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        background: linear-gradient(90deg, rgba(92, 182, 164, 0.78) -22.34%, rgba(255, 181, 16, 0.78) 195.43%);
+    }
+
+    .circle3 {
+        position: absolute;
+        top: 186px;
+        right: 25px;
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        background: linear-gradient(90deg, rgba(92, 182, 164, 0.78) -22.34%, rgba(255, 181, 16, 0.78) 195.43%);
+    }
 }
 
 @media only screen and (min-width: 64.063em) {
@@ -175,6 +318,7 @@
         height: 300px;
         width: auto;
     }
+
 
     .home-top {
         position: fixed;
@@ -232,5 +376,79 @@
         -webkit-text-fill-color: transparent;
         background-clip: text;
         text-fill-color: transparent;
+    }
+
+    .options {
+        margin: 80px 100px;
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px 100px;
+        border: 2px solid #252525;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #1f1f1f93;
+        backdrop-filter: blur(40px);
+        /* position: relative; */
+        z-index: 100;
+    }
+
+    .op-item {
+        text-align: center;
+    }
+
+    .op-icon {
+        /* fill: #398c7a; */
+        fill: #72727270;
+        height: 40px;
+        width: auto;
+    }
+
+    .op-title {
+        font-family: "R-Bold";
+        font-size: 26px;
+        /* color: white; */
+        background: linear-gradient(90.07deg, #398C7A -2.4%, #ffb510bd 140.77%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .op-subtitle {
+        font-family: "SFR";
+        font-size: 16px;
+        color: #727272;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .op-divider {
+        height: 2px;
+        /* width: 100%; */
+        margin: 15px 15px;
+        background-color: transparent;
+    }
+
+    .circle2 {
+        position: absolute;
+        bottom: 170px;
+        left: 80px;
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        background: linear-gradient(90deg, rgba(92, 182, 164, 0.78) -22.34%, rgba(255, 181, 16, 0.78) 195.43%);
+    }
+
+    .circle3 {
+        position: absolute;
+        top: 170px;
+        right: 80px;
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        background: linear-gradient(90deg, rgba(92, 182, 164, 0.78) -22.34%, rgba(255, 181, 16, 0.78) 195.43%);
     }
 }

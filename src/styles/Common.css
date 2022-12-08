@@ -17,6 +17,7 @@
         font-family: "R-Bold";
         color: white;
         font-size: 20px;
+        cursor: pointer;
     }
 }
 
@@ -31,5 +32,6 @@
         font-family: "R-Bold";
         color: white;
         font-size: 28px;
+        cursor: pointer;
     }
 }
