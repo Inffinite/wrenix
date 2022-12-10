@@ -7,6 +7,12 @@
         align-items: center;
     }
 
+    .container-start {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
     .hire-btn {
         outline: none;
         border: none;

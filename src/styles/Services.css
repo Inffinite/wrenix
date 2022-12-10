@@ -1,0 +1,328 @@
+@import "./fonts.css";
+
+@media only screen {
+    .services {
+        margin: 80px 0px;
+    }
+
+    .s-title {
+        background: linear-gradient(90.07deg, #398C7A -2.4%, rgba(255, 181, 16, 0.74) 140.77%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        font-family: "R-Bold";
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .s-card {
+        margin-top: 60px;
+        width: 100%;
+        border-radius: 10px;
+        background-color: #1f1f1f93;
+        padding: 20px 0px;
+        border: 2px solid #252525;
+        backdrop-filter: blur(40px);
+        position: relative;
+        z-index: 100;
+    }
+
+    .s-fade {
+        z-index: 50;
+        background: linear-gradient(90deg, rgba(92, 182, 164, 0.78) -22.34%, rgba(255, 181, 16, 0.78) 195.43%);
+        padding: 10px;
+        width: 85%;
+        border-radius: 10px;
+        height: 60px;
+        margin-bottom: -160px;
+    }
+
+    .s-card-wr {
+        padding: 0px 20px;
+    }
+
+    .service-icon-container {
+        border-radius: 999px;
+        padding: 20px;
+        background: linear-gradient(90deg, rgba(92, 182, 164, 0.78) -22.34%, rgba(255, 181, 16, 0.78) 195.43%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service-icon {
+        height: 35px;
+        stroke: rgb(218, 218, 218);
+    }
+
+    .service-title {
+        text-align: center;
+        font-family: "R-Bold";
+        margin-top: 20px;
+        background: linear-gradient(90.07deg, #398C7A -2.4%, rgba(255, 181, 16, 0.74) 140.77%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        font-size: 24px;
+    }
+
+    .service-option {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        font-family: "SFR";
+        font-size: 16px;
+        margin-top: 10px;
+        /* background-color: blue; */
+        width: 100%;
+        padding-top: 8px;
+        border-top: 2px solid #252525;
+    }
+
+    .service-option-icon {
+        stroke: #727272;
+        height: 24px;
+    }
+
+    .highlight-btn {
+        margin-top: 15px;
+        outline: none;
+        border: 2px solid #252525;
+        background-color: transparent;
+        /* color: #398C7A; */
+        border-radius: 6px;
+        width: 90%;
+        padding: 10px 0px;
+        font-family: "R-Regular";
+        font-size: 16px;
+        background: linear-gradient(90.07deg, #398C7A -2.4%, rgba(255, 181, 16, 0.74) 140.77%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    .services {
+        margin: 50px 100px;
+    }
+
+    .s-title {
+        background: linear-gradient(90.07deg, #398C7A -2.4%, rgba(255, 181, 16, 0.74) 140.77%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        font-family: "R-Bold";
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .s-card {
+        margin-top: 60px;
+        width: 100%;
+        border-radius: 10px;
+        background-color: #1f1f1f93;
+        padding: 20px 0px;
+        border: 2px solid #252525;
+        backdrop-filter: blur(40px);
+        position: relative;
+        z-index: 100;
+    }
+
+    .s-fade {
+        z-index: 50;
+        background: linear-gradient(90deg, rgba(92, 182, 164, 0.78) -22.34%, rgba(255, 181, 16, 0.78) 195.43%);
+        padding: 10px;
+        width: 85%;
+        border-radius: 10px;
+        height: 60px;
+        margin-bottom: -160px;
+    }
+
+    .s-card-wr {
+        padding: 0px 20px;
+    }
+
+    .service-icon-container {
+        border-radius: 999px;
+        padding: 20px;
+        background: linear-gradient(90deg, rgba(92, 182, 164, 0.78) -22.34%, rgba(255, 181, 16, 0.78) 195.43%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service-icon {
+        height: 35px;
+        stroke: rgb(218, 218, 218);
+    }
+
+    .service-title {
+        text-align: center;
+        font-family: "R-Bold";
+        margin-top: 20px;
+        background: linear-gradient(90.07deg, #398C7A -2.4%, rgba(255, 181, 16, 0.74) 140.77%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        font-size: 25px;
+    }
+
+    .service-option {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        font-family: "SFR";
+        font-size: 20px;
+        margin-top: 10px;
+        /* background-color: blue; */
+        width: 100%;
+        padding-top: 8px;
+        border-top: 2px solid #252525;
+    }
+
+    .service-option-icon {
+        stroke: #727272;
+        height: 24px;
+    }
+
+    .highlight-btn {
+        margin-top: 15px;
+        outline: none;
+        border: 2px solid #252525;
+        background-color: transparent;
+        /* color: #398C7A; */
+        border-radius: 6px;
+        width: 90%;
+        padding: 15px 0px;
+        font-family: "R-Regular";
+        font-size: 20px;
+        background: linear-gradient(90.07deg, #398C7A -2.4%, rgba(255, 181, 16, 0.74) 140.77%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 64.063em) {
+    .services {
+        margin: 50px 50px 100px 50px;
+    }
+
+    .s-title {
+        background: linear-gradient(90.07deg, #398C7A -2.4%, rgba(255, 181, 16, 0.74) 140.77%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        font-family: "R-Bold";
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .s-card {
+        margin-top: 60px;
+        width: 100%;
+        border-radius: 10px;
+        background-color: #1f1f1f93;
+        padding: 20px 0px;
+        border: 2px solid #252525;
+        backdrop-filter: blur(40px);
+        position: relative;
+        z-index: 100;
+        width: 350px;
+    }
+
+    .s-fade {
+        z-index: 50;
+        background: linear-gradient(90deg, rgba(92, 182, 164, 0.78) -22.34%, rgba(255, 181, 16, 0.78) 195.43%);
+        padding: 10px;
+        width: 85%;
+        border-radius: 10px;
+        height: 60px;
+        margin-bottom: -160px;
+    }
+
+    .s-card-wr {
+        padding: 0px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .service-icon-container {
+        border-radius: 999px;
+        padding: 20px;
+        background: linear-gradient(90deg, rgba(92, 182, 164, 0.78) -22.34%, rgba(255, 181, 16, 0.78) 195.43%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service-icon {
+        height: 35px;
+        stroke: rgb(218, 218, 218);
+    }
+
+    .service-title {
+        text-align: center;
+        font-family: "R-Bold";
+        margin-top: 20px;
+        background: linear-gradient(90.07deg, #398C7A -2.4%, rgba(255, 181, 16, 0.74) 140.77%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        font-size: 24px;
+    }
+
+    .service-option {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        font-family: "SFR";
+        font-size: 16px;
+        margin-top: 10px;
+        /* background-color: blue; */
+        width: 100%;
+        padding-top: 8px;
+        border-top: 2px solid #252525;
+    }
+
+    .service-option-icon {
+        stroke: #727272;
+        height: 24px;
+    }
+
+    .highlight-btn {
+        margin-top: 15px;
+        outline: none;
+        border: 2px solid #252525;
+        background-color: transparent;
+        /* color: #398C7A; */
+        border-radius: 6px;
+        width: 90%;
+        padding: 10px 0px;
+        font-family: "R-Regular";
+        font-size: 16px;
+        background: linear-gradient(90.07deg, #398C7A -2.4%, rgba(255, 181, 16, 0.74) 140.77%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        cursor: pointer;
+    }
+}
