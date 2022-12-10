@@ -2,7 +2,7 @@
 
 @media only screen {
     .reviews {
-        margin: 60px 20px;
+        margin: 60px 0px;
     }
 
     .r-title {
@@ -121,12 +121,43 @@
 
     .my-reviews {
         display: block;
+        padding: 0px 20px;
+    }
+
+    .footer {
+        background-color: transparent;
+        padding: 20px;
+        margin-top: 60px;
+        font-family: "SFR";
+        color: #727272;
+    }
+
+    .socials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .s-icon-wr {
+        border-radius: 999px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        gap: 30px;
+    }
+
+    .s-icon {
+        fill: #727272;
+        height: 25px;
     }
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     .reviews {
-        margin: 10px 20px;
+        margin: 10px 0px;
     }
 
     .r-title {
@@ -247,13 +278,13 @@
     .my-reviews {
         display: flex;
         gap: 10px;
-        padding: 0px 10px;
+        padding: 0px 20px;
     }
 }
 
 @media only screen and (min-width: 64.063em) {
     .reviews {
-        margin: 10px 20px;
+        margin: 10px 0px;
     }
 
     .r-title {
@@ -374,6 +405,6 @@
     .my-reviews {
         display: flex;
         gap: 30px;
-        padding: 0px 50px;
+        padding: 0px 60px;
     }
 }
