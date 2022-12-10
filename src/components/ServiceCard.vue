@@ -60,7 +60,7 @@ function openLink() {
                 </div>
 
                 <div class="container">
-                    <button @click="openLink()" class="highlight-btn">Tell us more</button>
+                    <button @click="openLink()" class="highlight-btn">Make an order</button>
                 </div>
             </div>
         </div>
