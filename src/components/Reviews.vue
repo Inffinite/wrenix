@@ -14,9 +14,9 @@ import ReviewCard from "./ReviewCard.vue";
                     imageUrl="https://randomuser.me/api/portraits/men/50.jpg"
                     message="Delivered my work on time and within my deadline. Love it." />
 
-                <ReviewCard name="Jack" workplace="Philanthropist"
-                    imageUrl="https://randomuser.me/api/portraits/men/50.jpg"
-                    message="Delivered my work on time and within my deadline. Love it." />
+                <ReviewCard name="April Graham" workplace="Artist"
+                    imageUrl="https://randomuser.me/api/portraits/women/51.jpg"
+                    message="Creative and delightful to work with." />
 
                 <ReviewCard name="Lucy Lane" workplace="Technical Writer"
                     imageUrl="https://randomuser.me/api/portraits/women/36.jpg"
