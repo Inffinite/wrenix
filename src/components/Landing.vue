@@ -1,5 +1,9 @@
 <script setup>
 import Circle from '../components/icons/Circle.vue';
+
+function openLink() {
+    window.open("https://wa.link/mapl4a");
+}
 </script>
 
 <template>
@@ -13,7 +17,7 @@ import Circle from '../components/icons/Circle.vue';
                     <div class="circ1">
                         <Circle />
                         <div class="container">
-                            <img src="assets/squigly-line.png" alt="" class="w-image">
+                            <img src="../assets/squigly-line.png" alt="" class="w-image">
                         </div>
                         <Circle />
                     </div>
@@ -33,7 +37,7 @@ import Circle from '../components/icons/Circle.vue';
             </div>
 
             <div class="container">
-                <button style="margin-top: 40px;" class="hire-btn">Lets talk</button>
+                <button @click="openLink()" style="margin-top: 40px;" class="hire-btn">Lets talk</button>
             </div>
 
             <div style="position: relative;" class="container">

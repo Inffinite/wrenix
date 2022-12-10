@@ -3,17 +3,17 @@
 @media only screen {
     .m-nav {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         position: fixed;
         top: 0;
         left: 0;
         right: 0;
-        padding: 20px;
+        padding: 15px;
         background-color: #1a1a1a3b;
         color: white;
         z-index: 200;
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(40px);
     }
 
     .d-nav {

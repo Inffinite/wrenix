@@ -7,6 +7,11 @@ const props = defineProps({
     title: String,
     options: Array
 });
+
+function openLink() {
+    window.open("https://wa.link/mapl4a");
+}
+
 </script>
 
 <template>
@@ -55,7 +60,7 @@ const props = defineProps({
                 </div>
 
                 <div class="container">
-                    <button class="highlight-btn">Learn more</button>
+                    <button @click="openLink()" class="highlight-btn">Tell us more</button>
                 </div>
             </div>
         </div>
