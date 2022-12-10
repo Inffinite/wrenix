@@ -9,8 +9,19 @@ import ReviewCard from "./ReviewCard.vue";
                 Our happy customers
             </div>
 
-            <ReviewCard name="Person" workplace="Chum Bucket"
-                message="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et delectus recusandae placeat sed, ex quidem maiores dolore deserunt!" />
+            <div class="my-reviews">
+                <ReviewCard name="Jack" workplace="Philanthropist"
+                    imageUrl="https://randomuser.me/api/portraits/men/50.jpg"
+                    message="Delivered my work on time and within my deadline. Love it." />
+
+                <ReviewCard name="Jack" workplace="Philanthropist"
+                    imageUrl="https://randomuser.me/api/portraits/men/50.jpg"
+                    message="Delivered my work on time and within my deadline. Love it." />
+
+                <ReviewCard name="Lucy Lane" workplace="Technical Writer"
+                    imageUrl="https://randomuser.me/api/portraits/women/36.jpg"
+                    message="Decent work quality and all round customer service." />
+            </div>
         </div>
     </main>
 </template>

@@ -3,15 +3,16 @@ const props = defineProps({
     message: Text,
     name: Text,
     workplace: Text,
+    imageUrl: Text,
 });
 </script>
 
 <template>
-    <div>
+    <div class="r-card-wr">
         <div class="r-card">
             <div class="r-rate-wr">
                 <div class="r-rate">
-                    <img src="https://randomuser.me/api/portraits/men/50.jpg" alt="" class="r-img">
+                    <img :src="props.imageUrl" alt="" class="r-img">
                     <div class="rate-icon-wr">
                         <svg class="rate-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
                             fill="currentColor">

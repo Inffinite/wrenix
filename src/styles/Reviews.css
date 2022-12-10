@@ -17,7 +17,7 @@
     }
 
     .r-card {
-        margin-top: 80px;
+        margin-top: 60px;
         width: 100%;
         border-radius: 10px;
         background-color: #1f1f1f93;
@@ -55,7 +55,7 @@
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: -35px;
+        top: -28px;
         left: 0;
         width: 100%;
     }
@@ -71,8 +71,8 @@
     }
 
     .r-img {
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
         background-size: cover;
         border-radius: 50px;
     }
@@ -99,8 +99,8 @@
         border-radius: 50px;
         /* background-color: #398c7ab9; */
         background: linear-gradient(90deg, rgba(92, 182, 164, 0.78) -22.34%, rgba(255, 181, 16, 0.78) 195.43%);
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
     }
 
     .rate-icon {
@@ -117,5 +117,263 @@
         border-radius: 10px;
         height: 60px;
         margin-top: -50px;
+    }
+
+    .my-reviews {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    .reviews {
+        margin: 10px 20px;
+    }
+
+    .r-title {
+        background: linear-gradient(90.07deg, #398C7A -2.4%, rgba(255, 181, 16, 0.74) 140.77%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        font-family: "R-Bold";
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .r-card {
+        margin-top: 60px;
+        width: 100%;
+        border-radius: 10px;
+        background-color: #1f1f1f93;
+        padding: 20px;
+        border: 2px solid #252525;
+        backdrop-filter: blur(40px);
+        position: relative;
+        z-index: 100;
+    }
+
+    .r-review {
+        color: #727272;
+        font-family: "SFR";
+        font-size: 16px;
+        text-align: start;
+    }
+
+    .r-name {
+        margin-top: 10px;
+        text-align: start;
+        font-family: "R-Bold";
+        color: #8d8d8d;
+        font-size: 16px;
+    }
+
+    .r-workplace {
+        text-align: start;
+        font-family: "SFR";
+        color: #727272;
+        font-size: 12px;
+    }
+
+    .r-rate-wr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: -28px;
+        left: 0;
+        width: 100%;
+    }
+
+    .r-rate {
+        padding: 5px;
+        background-color: #398C7A;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .r-img {
+        height: 40px;
+        width: 40px;
+        background-size: cover;
+        border-radius: 50px;
+    }
+
+    .r-count {
+        margin: 15px 0px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 2px;
+        width: 100%;
+    }
+
+    .r-icon {
+        fill: #398C7A;
+        height: 20px;
+    }
+
+    .rate-icon-wr {
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        /* background-color: #398c7ab9; */
+        background: linear-gradient(90deg, rgba(92, 182, 164, 0.78) -22.34%, rgba(255, 181, 16, 0.78) 195.43%);
+        height: 40px;
+        width: 40px;
+    }
+
+    .rate-icon {
+        fill: white;
+        height: 24px;
+        width: auto;
+    }
+
+    .r-fade {
+        z-index: 50;
+        background: linear-gradient(90deg, rgba(92, 182, 164, 0.78) -22.34%, rgba(255, 181, 16, 0.78) 195.43%);
+        padding: 10px;
+        width: 85%;
+        border-radius: 10px;
+        height: 60px;
+        margin-top: -50px;
+    }
+
+    .my-reviews {
+        display: flex;
+        gap: 10px;
+        padding: 0px 10px;
+    }
+}
+
+@media only screen and (min-width: 64.063em) {
+    .reviews {
+        margin: 10px 20px;
+    }
+
+    .r-title {
+        background: linear-gradient(90.07deg, #398C7A -2.4%, rgba(255, 181, 16, 0.74) 140.77%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        font-family: "R-Bold";
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .r-card {
+        margin-top: 60px;
+        width: 100%;
+        border-radius: 10px;
+        background-color: #1f1f1f93;
+        padding: 20px;
+        border: 2px solid #252525;
+        backdrop-filter: blur(40px);
+        position: relative;
+        z-index: 100;
+    }
+
+    .r-review {
+        color: #727272;
+        font-family: "SFR";
+        font-size: 16px;
+        text-align: start;
+    }
+
+    .r-name {
+        margin-top: 10px;
+        text-align: start;
+        font-family: "R-Bold";
+        color: #8d8d8d;
+        font-size: 16px;
+    }
+
+    .r-workplace {
+        text-align: start;
+        font-family: "SFR";
+        color: #727272;
+        font-size: 12px;
+    }
+
+    .r-rate-wr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: -28px;
+        left: 0;
+        width: 100%;
+    }
+
+    .r-rate {
+        padding: 5px;
+        background-color: #398C7A;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .r-img {
+        height: 40px;
+        width: 40px;
+        background-size: cover;
+        border-radius: 50px;
+    }
+
+    .r-count {
+        margin: 15px 0px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 2px;
+        width: 100%;
+    }
+
+    .r-icon {
+        fill: #398C7A;
+        height: 20px;
+    }
+
+    .rate-icon-wr {
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        /* background-color: #398c7ab9; */
+        background: linear-gradient(90deg, rgba(92, 182, 164, 0.78) -22.34%, rgba(255, 181, 16, 0.78) 195.43%);
+        height: 40px;
+        width: 40px;
+    }
+
+    .rate-icon {
+        fill: white;
+        height: 24px;
+        width: auto;
+    }
+
+    .r-fade {
+        z-index: 50;
+        background: linear-gradient(90deg, rgba(92, 182, 164, 0.78) -22.34%, rgba(255, 181, 16, 0.78) 195.43%);
+        padding: 10px;
+        width: 85%;
+        border-radius: 10px;
+        height: 60px;
+        margin-top: -50px;
+    }
+
+    .my-reviews {
+        display: flex;
+        gap: 30px;
+        padding: 0px 50px;
     }
 }
