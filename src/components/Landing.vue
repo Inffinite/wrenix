@@ -22,7 +22,7 @@ import Circle from '../components/icons/Circle.vue';
                     <div class="container">
                         <img class="w-name" src="../assets/wrenix.svg" alt="">
                     </div>
-                    <div class="w-subtitle">DESIGN AGENCY</div>
+                    <div class="w-subtitle">CREATIVE DESIGN AGENCY</div>
                 </div>
             </div>
 

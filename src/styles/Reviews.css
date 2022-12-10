@@ -152,6 +152,12 @@
     .s-icon {
         fill: #727272;
         height: 25px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .s-icon:hover {
+        fill: #398C7A;
+        cursor: pointer;
     }
 }
 
@@ -280,6 +286,16 @@
         gap: 10px;
         padding: 0px 20px;
     }
+
+    .s-icon-wr {
+        border-radius: 999px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        gap: 60px;
+    }
 }
 
 @media only screen and (min-width: 64.063em) {
@@ -406,5 +422,15 @@
         display: flex;
         gap: 30px;
         padding: 0px 60px;
+    }
+
+    .s-icon-wr {
+        border-radius: 999px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        gap: 60px;
     }
 }
