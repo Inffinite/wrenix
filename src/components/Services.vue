@@ -1,7 +1,7 @@
 <script setup>
 import ServiceCard from "./ServiceCard.vue";
 const ui = ["Website interfaces", "IOT device interfaces", "Mobile/Desktop interfaces"]
-const software = ["Cloud application", "Mobile applications", "Desktop applications"]
+const software = ["Cloud applications", "Mobile applications", "Desktop applications"]
 const graphic = ["Publications", "Logos", "Posters"]
 </script>
 
