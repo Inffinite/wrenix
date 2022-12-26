@@ -3,7 +3,7 @@
 @media only screen {
     .m-nav {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         position: fixed;
         top: 0;
@@ -42,9 +42,8 @@
         top: 0;
         left: 0;
         right: 0;
-        padding: 20px;
+        padding: 12px 20px;
         background-color: #1a1a1a3b;
-        font-family: "SFR";
         z-index: 200;
         backdrop-filter: blur(40px);
         gap: 60px;
@@ -61,6 +60,7 @@
     .n-item {
         color: #bbbbbb;
         transition: 0.5s ease-in-out;
+        font-family: 'SFB';
     }
 
     .n-item:hover {
@@ -70,5 +70,11 @@
         -webkit-text-fill-color: transparent;
         background-clip: text;
         text-fill-color: transparent;
+    }
+
+    .n-logo {
+        position: absolute;
+        left: 60px;
+
     }
 }

@@ -13,6 +13,11 @@
     src: url('../assets/SFPROTEXT-REGULAR.ttf');
 }
 
+@font-face {
+    font-family: "SFB";
+    src: url('../assets/SF-Pro-Display-Bold.otf');
+}
+
 /* @font-face {
     font-family: "sfr";
     src: url('../../fonts/SFProText-Regular.woff');
