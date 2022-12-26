@@ -10,7 +10,7 @@ const props = defineProps({
 <template>
     <div class="r-card-wr">
         <div class="r-card">
-            <div class="r-rate-wr">
+            <!-- <div class="r-rate-wr">
                 <div class="r-rate">
                     <img :src="props.imageUrl" alt="" class="r-img">
                     <div class="rate-icon-wr">
@@ -23,7 +23,7 @@ const props = defineProps({
                     </div>
 
                 </div>
-            </div>
+            </div> -->
             <div class="r-count">
                 <svg class="r-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                     <path fill-rule="evenodd"
@@ -50,11 +50,13 @@ const props = defineProps({
             <div class="r-review">
                 {{ props.message }}
             </div>
-            <div class="r-name">
-                {{ props.name }}
-            </div>
-            <div class="r-workplace">
-                {{ props.workplace }}
+            <div class="author">
+                <div class="r-name">
+                    {{ props.name }}
+                </div>
+                <div class="r-workplace">
+                    {{ props.workplace }}
+                </div>
             </div>
         </div>
         <div class="container">
