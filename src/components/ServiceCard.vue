@@ -17,6 +17,7 @@ function openLink() {
 <template>
     <main>
         <div>
+
             <div class="container">
                 <div class="s-fade"></div>
             </div>
@@ -59,9 +60,9 @@ function openLink() {
                     </div>
                 </div>
 
-                <div class="container">
+                <!-- <div class="container">
                     <button @click="openLink()" class="highlight-btn">Make an order</button>
-                </div>
+                </div> -->
             </div>
         </div>
     </main>

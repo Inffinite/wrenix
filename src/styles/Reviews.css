@@ -2,7 +2,7 @@
 
 @media only screen {
     .reviews {
-        margin: 60px 0px;
+        margin: 60px 0px 0px 0px;
     }
 
     .r-title {
@@ -126,17 +126,18 @@
     }
 
     .footer {
-        background-color: transparent;
+        /* background-color: transparent; */
         padding: 20px;
         margin-top: 60px;
         font-family: "SFR";
         color: #727272;
+        background: linear-gradient(90deg, rgba(92, 182, 164, 0.78) -22.34%, rgba(255, 181, 16, 0.78) 195.43%);
     }
 
     .socials {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-end;
         gap: 20px;
     }
 
@@ -146,14 +147,20 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 30px;
-        gap: 30px;
+        margin-bottom: 15px;
+        gap: 50px;
     }
 
     .s-icon {
-        fill: #727272;
+        fill: white;
         height: 25px;
         transition: 0.5s ease-in-out;
+    }
+
+    .rights {
+        color: white;
+        font-family: "SFB";
+        font-size: 16px;
     }
 
     .s-icon:hover {
@@ -169,7 +176,7 @@
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     .reviews {
-        margin: 10px 0px;
+        margin: 10px 0px 0px 0px;
     }
 
     .r-title {
@@ -311,7 +318,7 @@
 
 @media only screen and (min-width: 64.063em) {
     .reviews {
-        margin: 10px 0px;
+        margin: 10px 0px 0px 0px;
     }
 
     .r-title {

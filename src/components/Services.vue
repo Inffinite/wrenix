@@ -1,8 +1,8 @@
 <script setup>
 import ServiceCard from "./ServiceCard.vue";
-const ui = ["Website interfaces", "IOT device interfaces", "Mobile/Desktop interfaces"]
+const ui = ["Wireframes", "Content strategy", "User testing"]
 const software = ["Cloud applications", "Mobile applications", "Desktop applications"]
-const graphic = ["Publications", "Logos", "Posters"]
+const graphic = ["Brand identity design", "Social media marketing", "Packaging design"]
 </script>
 
 <template>
@@ -13,7 +13,7 @@ const graphic = ["Publications", "Logos", "Posters"]
             <div class="s-card-wr">
                 <ServiceCard iconType="1" title="Software Development" :options=software />
                 <ServiceCard iconType="2" title="UI/UX Design" :options=ui />
-                <ServiceCard iconType="3" title="Graphic Design" :options=graphic />
+                <ServiceCard iconType="3" title="Marketing" :options=graphic />
             </div>
         </div>
     </main>

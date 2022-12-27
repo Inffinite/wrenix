@@ -32,7 +32,8 @@ function openLink() {
 
             <div class="container">
                 <div class="l-desc">
-                    We are a team of professional <span>Designers</span> and <span>Developers</span> in the industry.
+                    We are a team of professional <span>Designers</span> and <span>Developers</span> in the industry,
+                    building solutions to your problems.
                 </div>
             </div>
 
