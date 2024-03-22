@@ -5,18 +5,7 @@ import Nav from '../components/Nav.vue';
 import Landing from '../components/Landing.vue';
 import Reviews from '../components/Reviews.vue';
 import Services from '../components/Services.vue';
-// import { Rive, Layout } from "@rive-app/canvas";
-import { ref, onMounted } from "vue";
 
-
-// onMounted(() => {
-//   new Rive({
-//     src: "assets/birdy.riv",
-//     canvas: document.getElementById('canvas'),
-//     layout: new Layout({ fit: 'contain', alignment: 'center' }),
-//     autoplay: true,
-//   });
-// })
 </script>
 
 <template>

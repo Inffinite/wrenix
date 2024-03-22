@@ -1,5 +1,16 @@
 <script setup>
 import Circle from '../components/icons/Circle.vue';
+import { Rive, Layout } from "@rive-app/canvas";
+import { ref, onMounted } from "vue";
+
+onMounted(() => {
+  new Rive({
+    src: "./birdy.riv",
+    canvas: document.getElementById('canvas'),
+    layout: new Layout({ fit: 'contain', alignment: 'center' }),
+    autoplay: true,
+  });
+})
 
 function openLink() {
     window.open("https://wa.link/mapl4a");
@@ -11,16 +22,16 @@ function openLink() {
         <div class="landing">
             <div class="container">
                 <div>
-                    <!-- <div class="container">
-                        <canvas id="canvas" width="1000" height="300"></canvas>
-                      </div> -->
-                    <div class="circ1">
+                    <div class="container">
+                        <canvas id="canvas" width="2000" height="200"></canvas>
+                      </div>
+                    <!-- <div class="circ1">
                         <Circle />
                         <div class="container">
                             <img src="../assets/squigly-line.png" alt="" class="w-image">
                         </div>
                         <Circle />
-                    </div>
+                    </div> -->
 
                     <div class="w-title">WELCOME TO</div>
                     <div class="container">
