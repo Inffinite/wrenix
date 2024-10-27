@@ -22,9 +22,9 @@ function openLink() {
         <div class="landing">
             <div class="container">
                 <div>
-                    <div class="container">
+                    <!-- <div class="container">
                         <canvas id="canvas" width="2000" height="200"></canvas>
-                      </div>
+                      </div> -->
                     <!-- <div class="circ1">
                         <Circle />
                         <div class="container">
@@ -37,14 +37,13 @@ function openLink() {
                     <div class="container">
                         <img class="w-name" src="../assets/wrenix.svg" alt="">
                     </div>
-                    <div class="w-subtitle">CREATIVE DESIGN AGENCY</div>
+                    <!-- <div class="w-subtitle">SOFTWARE COMPANY</div> -->
                 </div>
             </div>
 
             <div class="container">
                 <div class="l-desc">
-                    We are a team of professional <span>Designers</span> and <span>Developers</span> in the industry,
-                    building solutions to your problems.
+                    We are a team of professional <span>Designers</span> and <span>Developers</span> passionate about building interactive software solutions.
                 </div>
             </div>
 
