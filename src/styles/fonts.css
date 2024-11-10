@@ -1,22 +1,42 @@
 @font-face {
-    font-family: "R-Regular";
-    src: url('../assets/RohnRounded-Medium.ttf');
+    font-family: "DM";
+    src: url('../assets/DMSerifText-Regular.ttf');
 }
 
 @font-face {
-    font-family: "R-Bold";
-    src: url('../assets/RohnRounded-Bold.ttf');
+    font-family: "LX";
+    src: url('../assets/Lexend-VariableFont_wght.ttf');
 }
 
 @font-face {
+    font-family: "RR";
+    src: url('../assets/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: "RB";
+    src: url('../assets/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: "RM";
+    src: url('../assets/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: "LX";
+    src: url('../assets/Lexend-VariableFont_wght.ttf');
+}
+
+/* @font-face {
     font-family: "SFR";
-    src: url('../assets/SFPROTEXT-REGULAR.ttf');
+    src: url('../assets/SFPROTEXT-REGULAR.woff2');
 }
 
 @font-face {
     font-family: "SFB";
-    src: url('../assets/SF-Pro-Display-Bold.otf');
-}
+    src: url('../assets/SF-Pro-Display-Bold.woff2');
+} */
 
 /* @font-face {
     font-family: "sfr";

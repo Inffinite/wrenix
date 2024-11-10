@@ -1,125 +1,145 @@
 @import './fonts.css';
 
 @media only screen {
-    .m-nav {
+    .nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 0px;
+        background-color: white;
         display: flex;
         justify-content: center;
         align-items: center;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        padding: 10px 20px;
-        background-color: #1a1a1a60;
-        color: white;
-        z-index: 200;
-        backdrop-filter: blur(40px);
-        border-bottom: 2px solid #252525;
-        transition: 0.5s ease-in-out;
+        z-index: 999;
     }
 
-    .m-nav-open {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        padding: 15px 20px;
-        background-color: #1a1a1a3b;
-        color: white;
-        z-index: 200;
-        backdrop-filter: blur(40px);
-        border-bottom: 2px solid #252525;
-        transition: all 0.5s ease-in-out;
+    .nav-logo {
+        width: auto;
+        height: 18px;
     }
 
-    .m-menu-items {
-        position: absolute;
-        top: 60px;
-    }
-
-    .d-nav {
+    .nope {
         display: none;
     }
+}
 
-    .n-l {
-        height: 20px;
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    .nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 15px 0px;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 999;
     }
 
-    .n-icon {
-        height: 26px;
+    .nope {
+        display: block;
     }
 
-    .m-item {
-        color: #bbbbbb;
-        transition: 0.5s ease-in-out;
-        font-family: 'SFB';
-        font-size: 26px;
-        margin-top: 10px;
+    .nav-ct {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 50px;
+        width: 100%;
     }
 
-    .m-item:hover {
+    .nav-logo {
+        width: auto;
+        height: 22px;
+    }
+
+    ul {
+        font-family: 'RM';
+        font-size: 14px;
         cursor: pointer;
-        background: linear-gradient(90.07deg, #398C7A -2.4%, rgba(255, 181, 16, 0.74) 140.77%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
+        color: black;
+    }
+
+    .n-btn {
+        outline: none;
+        border: none;
+        background-color: #5a45fe;
+        color: white;
+        font-family: 'RR';
+        font-size: 14px;
+        padding: 10px 20px;
+        border-radius: 50px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .n-btn-icon {
+        fill: white;
+        height: 16px;
     }
 }
 
 @media only screen and (min-width: 64.063em) {
-    .m-nav {
-        display: none;
-    }
-
-    .d-nav {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .nav {
         position: fixed;
         top: 0;
         left: 0;
-        right: 0;
-        padding: 12px 20px;
-        background-color: #1a1a1a3b;
-        z-index: 200;
-        backdrop-filter: blur(40px);
-        gap: 60px;
-        border-bottom: 1px solid #252525;
+        width: 100%;
+        padding: 15px 0px;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 999;
     }
 
-    .n-l {
-        height: 20px;
+    .nope {
+        display: block;
     }
 
-    .n-icon {
-        height: 26px;
-        fill: #bbbbbb;
-        stroke: #bbbbbb;
+    .nav-ct {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 50px;
+        width: 100%;
     }
 
-    .n-item {
-        color: #bbbbbb;
-        transition: 0.5s ease-in-out;
-        font-family: 'SFB';
+    .nav-logo {
+        width: auto;
+        height: 22px;
     }
 
-    .n-item:hover {
+    ul {
+        font-family: 'RM';
+        font-size: 14px;
         cursor: pointer;
-        background: linear-gradient(90.07deg, #398C7A -2.4%, rgba(255, 181, 16, 0.74) 140.77%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
+        color: black;
     }
 
-    .n-logo {
-        /* position: absolute;
-        left: 60px; */
+    .n-btn {
+        outline: none;
+        border: none;
+        background-color: #5a45fe;
+        color: white;
+        font-family: 'RR';
+        font-size: 14px;
+        padding: 10px 20px;
+        border-radius: 50px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
 
+    .n-btn-icon {
+        fill: white;
+        height: 16px;
     }
 }

@@ -125,14 +125,7 @@
         padding: 0px 20px;
     }
 
-    .footer {
-        /* background-color: transparent; */
-        padding: 20px;
-        margin-top: 60px;
-        font-family: "SFR";
-        color: #727272;
-        background: linear-gradient(90deg, rgba(92, 182, 164, 0.78) -22.34%, rgba(255, 181, 16, 0.78) 195.43%);
-    }
+    
 
     .socials {
         display: flex;

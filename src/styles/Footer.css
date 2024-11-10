@@ -1,0 +1,149 @@
+@media only screen {
+    .footer {
+        /* position: sticky;
+        bottom: 0;
+        left: 0;
+        right: 0; */
+        background-color: white;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .f-ct {
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    .f-inc {
+        font-family: 'RR';
+        font-size: 12px;
+        text-align: center;
+        color: rgb(110, 110, 110);
+    }
+
+    .f-news {
+        width: 100%;
+        /* background-color: red; */
+    }
+
+    .fn-title {
+        text-align: center;
+        font-family: 'RB';
+        color: black;
+        width: 200px;
+        font-size: 16px;
+    }
+
+    ::placeholder {
+        color: rgb(185, 185, 185);
+    }
+
+    .fn-email {
+        border: none;
+        height: 50px;
+        outline: none;
+        width: 90%;
+        background-color: transparent;
+        margin: 0px 10px;
+        font-family: 'RR';
+        font-size: 16px;
+    }
+
+    .email-wr {
+        background-color: rgb(240, 240, 240);
+        border-radius: 10px;
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    .subscribe {
+        width: 300px;
+        border: none;
+        outline: none;
+        color: white;
+        background-color: #5a45fe;
+        margin-top: 10px;
+        border-radius: 10px;
+        font-size: 16px;
+        padding: 18px 20px;
+        font-family: 'RM';
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em){
+    .footer {
+        /* position: sticky;
+        bottom: 0;
+        left: 0;
+        right: 0; */
+        background-color: white;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .f-ct {
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    .f-inc {
+        font-family: 'RR';
+        font-size: 12px;
+        text-align: center;
+        color: rgb(110, 110, 110);
+    }
+
+    .f-news {
+        width: 100%;
+        /* background-color: red; */
+    }
+
+    .fn-title {
+        text-align: center;
+        font-family: 'RB';
+        color: black;
+        width: 200px;
+        font-size: 16px;
+    }
+
+    ::placeholder {
+        color: rgb(185, 185, 185);
+    }
+
+    .fn-email {
+        border: none;
+        height: 50px;
+        outline: none;
+        width: 90%;
+        background-color: transparent;
+        margin: 0px 10px;
+        font-family: 'RR';
+        font-size: 16px;
+    }
+
+    .email-wr {
+        background-color: rgb(240, 240, 240);
+        border-radius: 10px;
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    .subscribe {
+        width: 300px;
+        border: none;
+        outline: none;
+        color: white;
+        background-color: #5a45fe;
+        margin-top: 10px;
+        border-radius: 10px;
+        font-size: 16px;
+        padding: 18px 20px;
+        font-family: 'RM';
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 64.063em){
+
+}
