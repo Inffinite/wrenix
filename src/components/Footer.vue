@@ -4,11 +4,22 @@ import { ref, onMounted } from "vue";
 
 <template>
     <div class="footer">
+        <div class="foot-wr">
+            <div class="container f-desktop">
+                <div class="f-foot f-desktop">
+                    <div class="container">
+                        <img src="../assets/wrenix-nav-logo.svg" alt="" class="f-logo">
+                    </div>
+                    <div class="f-f-title">
+                        <span class="f-blue">Growing Your Business</span> One Pixel At A Time
+                    </div>
+                </div>
+            </div>
             <div class="f-news">
                 <div class="container">
                     <div class="fn-title">
-                    Join our newsletter to keep up to date with us!
-                </div>
+                        Join our newsletter to keep up to date with us!
+                    </div>
                 </div>
                     <div class="fn-entry">
                         <div class="container">
@@ -21,6 +32,8 @@ import { ref, onMounted } from "vue";
                         </div>
                     </div>
             </div>
+        </div>   
+        <div class="f-line"></div>
         <div class="f-ct">
             <div class="f-inc">@2024 Wrenix Inc. All rights reserved.</div>
         </div>

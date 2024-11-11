@@ -16,7 +16,7 @@
 
     .f-inc {
         font-family: 'RR';
-        font-size: 12px;
+        font-size: 14px;
         text-align: center;
         color: rgb(110, 110, 110);
     }
@@ -30,8 +30,8 @@
         text-align: center;
         font-family: 'RB';
         color: black;
-        width: 200px;
-        font-size: 16px;
+        width: 250px;
+        font-size: 22px;
     }
 
     ::placeholder {
@@ -52,12 +52,16 @@
     .email-wr {
         background-color: rgb(240, 240, 240);
         border-radius: 10px;
-        width: 300px;
+        width: 100%;
+        margin-left: 15px;
+        margin-right: 15px;
         margin-top: 20px;
     }
 
     .subscribe {
-        width: 300px;
+        width: 100%;
+        margin-left: 15px;
+        margin-right: 15px;
         border: none;
         outline: none;
         color: white;
@@ -68,6 +72,36 @@
         padding: 18px 20px;
         font-family: 'RM';
         cursor: pointer;
+    }
+
+    .f-line {
+        margin: 30px 0px;
+        height: 1px;
+        background-color: rgba(0, 0, 0, 0.103);
+        width: 100%;
+    }
+
+    .f-desktop {
+        display: block;
+    }
+
+    .f-f-title {
+        font-family: 'RB';
+        font-size: 22px;
+        color: black;
+        width: 200px;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+
+    .f-logo {
+        width: auto;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .f-blue {
+        color: #5a45fe;
     }
 }
 
@@ -107,6 +141,13 @@
         font-size: 16px;
     }
 
+    .foot-wr {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Create two equal-width columns */
+        gap: 20px;
+        width: 100%;
+    }
+
     ::placeholder {
         color: rgb(185, 185, 185);
     }
@@ -142,8 +183,122 @@
         font-family: 'RM';
         cursor: pointer;
     }
+
+    .f-desktop {
+        display: block;
+    }
+
+    .f-f-title {
+        font-family: 'RB';
+        font-size: 26px;
+        color: black;
+        width: 350px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .f-logo {
+        width: auto;
+        height: 40px;
+        margin-bottom: 10px;
+    }
 }
 
 @media only screen and (min-width: 64.063em){
+    .footer {
+        /* position: sticky;
+        bottom: 0;
+        left: 0;
+        right: 0; */
+        background-color: white;
+        width: 100%;
+        margin: 0px;
+    }
 
+    .f-ct {
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    .f-inc {
+        font-family: 'RR';
+        font-size: 12px;
+        text-align: center;
+        color: rgb(110, 110, 110);
+    }
+
+    .f-news {
+        width: 100%;
+        /* background-color: red; */
+    }
+
+    .fn-title {
+        text-align: center;
+        font-family: 'RB';
+        color: black;
+        width: 500px;
+        font-size: 22px;
+    }
+
+    .foot-wr {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Create two equal-width columns */
+        gap: 20px;
+        width: 100%;
+    }
+
+    ::placeholder {
+        color: rgb(185, 185, 185);
+    }
+
+    .fn-email {
+        border: none;
+        height: 50px;
+        outline: none;
+        width: 90%;
+        background-color: transparent;
+        margin: 0px 10px;
+        font-family: 'RR';
+        font-size: 16px;
+    }
+
+    .email-wr {
+        background-color: rgb(240, 240, 240);
+        border-radius: 10px;
+        width: 500px;
+        margin-top: 20px;
+    }
+
+    .subscribe {
+        width: 500px;
+        border: none;
+        outline: none;
+        color: white;
+        background-color: #5a45fe;
+        margin-top: 10px;
+        border-radius: 10px;
+        font-size: 16px;
+        padding: 18px 20px;
+        font-family: 'RM';
+        cursor: pointer;
+    }
+
+    .f-desktop {
+        display: block;
+    }
+
+    .f-f-title {
+        font-family: 'RB';
+        font-size: 26px;
+        color: black;
+        width: 350px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .f-logo {
+        width: auto;
+        height: 60px;
+        margin-bottom: 20px;
+    }
 }
