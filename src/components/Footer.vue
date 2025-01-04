@@ -11,7 +11,7 @@ import { ref, onMounted } from "vue";
                         <img src="../assets/wrenix-nav-logo.svg" alt="" class="f-logo">
                     </div>
                     <div class="f-f-title">
-                        <span class="f-blue">Growing Your Business</span> One Pixel At A Time
+                        <span class="f-blue">Growing Your business</span> one pixel at a time
                     </div>
                 </div>
             </div>

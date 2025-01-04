@@ -228,7 +228,7 @@
     }
 
     .f-news {
-        width: 100%;
+        width: 70%;
         /* background-color: red; */
     }
 
@@ -236,7 +236,7 @@
         text-align: center;
         font-family: 'RB';
         color: black;
-        width: 500px;
+        width: 300px;
         font-size: 22px;
     }
 

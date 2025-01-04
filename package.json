@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@rive-app/canvas": "^1.0.95",
+    "gsap": "^3.12.5",
     "pinia": "^2.0.26",
     "rive-js": "^0.7.33",
     "vue": "^3.2.45",

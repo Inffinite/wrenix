@@ -33,7 +33,7 @@ function mobileNav() {
                 <img src="../assets/wrenix-nav-logo.svg" alt="" class="nav-logo">
             <div class="container nope">
                 <ul class="nope">Home</ul>
-                <ul class="nope">Reviews</ul>
+                <ul class="nope">Our Projects</ul>
                 <ul class="nope">Contact</ul>
             </div>
             <button class="n-btn nope">

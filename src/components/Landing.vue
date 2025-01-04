@@ -1,15 +1,15 @@
 <script setup>
 import Circle from '../components/icons/Circle.vue';
-import { Rive, Layout } from "@rive-app/canvas";
+// import { Rive, Layout } from "@rive-app/canvas";
 import { ref, onMounted } from "vue";
 
 onMounted(() => {
-  new Rive({
-    src: "./birdy.riv",
-    canvas: document.getElementById('canvas'),
-    layout: new Layout({ fit: 'contain', alignment: 'center' }),
-    autoplay: true,
-  });
+  // new Rive({
+  //   src: "./birdy.riv",
+  //   canvas: document.getElementById('canvas'),
+  //   layout: new Layout({ fit: 'contain', alignment: 'center' }),
+  //   autoplay: true,
+  // });
 })
 
 function openLink() {
@@ -35,7 +35,6 @@ function openLink() {
               Work With Us
             </button>
           </div>
-          <div style="color: red; width: 100%; height: 1000px;"></div>
         </div>
     </main>
 </template>

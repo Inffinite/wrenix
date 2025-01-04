@@ -1,0 +1,325 @@
+@media only screen {
+    .faq {
+        width: 100%;
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+
+    .fq-title {
+        font-family: 'DM';
+        font-size: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .fq-subtitle {
+        font-family: 'RR';
+        margin-top: 10px;
+        font-size: 16px;
+        text-align: center;
+        color: rgb(99, 99, 99);
+        margin-bottom: 40px;
+    }
+
+    .fq-card-icon {
+        fill: none;
+        width: auto;
+        height: 26px;
+    }
+
+    .fq-card-icon2 {
+        stroke: black;
+        width: auto;
+        height: 18px;
+        cursor: pointer;
+    }
+
+    .fq-card-wr {
+        /* width: 100%; */
+        margin: 0px 20px;
+    }
+
+    .fq-card {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+        /* background-color: red; */
+        margin-top: 30px;
+        cursor: pointer;
+        /* cursor: pointer; */
+    }
+
+    .fq-card-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .fq-head-title {
+        font-family: 'RB';
+        text-align: start;
+        font-size: 16px;
+        color: black;
+    }
+
+    .fq-head-icon {
+        stroke: black;
+        height: 15px;
+        width: auto;
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .fq-head {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .fq-card-subtitle {
+        font-family: 'RR';
+        font-size: 16px;
+        margin-top: 10px;
+        color: rgb(99, 99, 99);
+        line-height: 1.5;
+    }
+
+    .fq-line {
+        margin: 30px 0px;
+        height: 1px;
+        background-color: rgba(0, 0, 0, 0.103);
+        width: 100%;
+    }
+
+    .fq-more {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        background-color: #5a45fe;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 0px 15px;
+    }
+
+    .fq-more-title {
+        text-align: center;
+        font-family: 'DM';
+        font-size: 22px;
+        color: white;
+    }
+
+    .fq-more-subtitle {
+        margin-top: 5px;
+        text-align: center;
+        font-family: 'RR';
+        font-size: 14px;
+        color: white;
+    }
+
+     .fq-more-btn {
+        margin-top: 20px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        padding: 15px 20px;
+        background-color: white;
+        color: #5a45fe;
+        font-size: 16px;
+        font-family: 'RB';
+        width: 100%;
+     }
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em){
+    .faq {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .fq-wr {
+        margin: 30px 100px;
+    }
+
+    .fq-title {
+        font-family: 'DM';
+        font-size: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .fq-subtitle {
+        font-family: 'RR';
+        margin-top: 5px;
+        font-size: 16px;
+        text-align: center;
+        color: rgb(99, 99, 99);
+        margin-bottom: 50px;
+    }
+
+    .fq-card-icon {
+        fill: none;
+        width: auto;
+        height: 24px;
+    }
+
+    .fq-card-wr {
+        /* width: 100%; */
+        margin: 50px 20px;
+    }
+
+    .fq-card {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 20px;
+        /* background-color: red; */
+        margin: 50px 0px;
+        cursor: pointer;
+    }
+
+    .fq-card-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .fq-head-title {
+        font-family: 'RB';
+        text-align: start;
+        font-size: 20px;
+        color: black;
+    }
+
+    .fq-card-subtitle {
+        font-family: 'RR';
+        font-size: 16px;
+        margin-top: 10px;
+        color: rgb(99, 99, 99);
+        line-height: 1.5;
+        width: 90%;
+    }
+
+    .fq-line {
+        margin: 30px 0px;
+        height: 1px;
+        background-color: rgba(0, 0, 0, 0.103);
+        width: 100%;
+    }
+
+    .fq-more-title {
+        text-align: center;
+        font-family: 'RB';
+        font-size: 16px;
+    }
+
+    .fq-more-subtitle {
+        text-align: center;
+        font-family: 'RR';
+        color: rgb(99, 99, 99);
+        margin: 10px 40px;
+    }
+}
+
+@media only screen and (min-width: 64.063em){
+    .faq {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .fq-wr {
+        margin: 30px 300px;
+    }
+
+    .fq-title {
+        font-family: 'DM';
+        font-size: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .fq-subtitle {
+        font-family: 'RR';
+        margin-top: 5px;
+        font-size: 20px;
+        text-align: center;
+        color: rgb(99, 99, 99);
+        margin-bottom: 60px;
+    }
+
+    .fq-card-icon {
+        fill: none;
+        width: auto;
+        height: 24px;
+        cursor: pointer;
+    }
+
+    .fq-card-wr {
+        /* width: 100%; */
+        margin: 0px 20px;
+    }
+
+    .fq-card {
+        width: 100%;
+        /* background-color: red; */
+        margin-top: 50px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 30px;
+        cursor: pointer;
+    }
+
+    .fq-card-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .fq-head-title {
+        font-family: 'RB';
+        text-align: start;
+        font-size: 18px;
+        color: black;
+    }
+
+    .fq-card-subtitle {
+        font-family: 'RR';
+        font-size: 16px;
+        margin-top: 10px;
+        color: rgb(99, 99, 99);
+        line-height: 1.5;
+        width: 90%;
+    }
+
+    .fq-line {
+        margin: 30px 0px;
+        height: 1px;
+        background-color: rgba(0, 0, 0, 0.103);
+        width: 100%;
+    }
+
+    .fq-more-title {
+        text-align: center;
+        font-family: 'RB';
+        font-size: 20px;
+    }
+
+    .fq-more-subtitle {
+        text-align: center;
+        font-family: 'RR';
+        color: rgb(99, 99, 99);
+        margin: 10px 40px;
+        font-size: 16px;
+    }
+}

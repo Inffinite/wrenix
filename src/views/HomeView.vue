@@ -6,7 +6,9 @@ import Landing from '../components/Landing.vue';
 import Reviews from '../components/Reviews.vue';
 import Services from '../components/Services.vue';
 import Footer from '../components/Footer.vue';
+import Faq from '../components/Faq.vue';
 import Dev from '../components/Dev.vue';
+// import Process from '../components/Process.vue';
 
 </script>
 
@@ -15,10 +17,13 @@ import Dev from '../components/Dev.vue';
     <div class="home">
       <Nav />
       <Landing />
+      <!-- <Process /> -->
+      <Reviews />
+      <Faq/>
       <Footer />
       <!-- <Dev /> -->
       <!-- <Services /> -->
-      <!-- <Reviews /> -->
+      
     </div>
   </main>
 </template>
