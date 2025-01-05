@@ -49,7 +49,7 @@ function movy(){
     <main>
         <div class="faq">
                 <div class="fq-wr">
-                    <div class="fq-title">Frequently asked questions</div>
+                    <div class="fq-title"><span class="purple">Frequently</span> asked questions</div>
                     <div class="fq-subtitle">
                         Have questions? We're here to help.
                     </div>

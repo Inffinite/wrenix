@@ -1,8 +1,7 @@
 @media only screen {
     .faq {
         width: 100%;
-        margin-bottom: 100px;
-        margin-top: 50px;
+        margin: 50px 0px;
     }
 
     .fq-title {
@@ -232,7 +231,7 @@
 @media only screen and (min-width: 64.063em){
     .faq {
         width: 100%;
-        margin-top: 50px;
+        margin: 100px 0px;
     }
 
     .fq-wr {

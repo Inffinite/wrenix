@@ -17,7 +17,7 @@
     }
 
     .review-card {
-        margin: 5px 30px;
+        margin: 10px 30px;
         padding: 15px;
     }
 
@@ -26,19 +26,65 @@
         margin-top: 10px;
         font-size: 14px;
         text-align: center;
+        color: #5a45fe;
     }
 
     .rvc-review {
+        margin-top: 5px;
         font-family: 'RR';
-        font-size: 18px;
+        font-size: 16px;
         text-align: center;
+    }
+
+    .rvc-icon {
+        height: 50px;
+        width: auto;
+        fill: #5a45fe;
+        margin-bottom: 10px;
     }
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em){
-    
+    .rv-title {
+        font-family: 'DM';
+        font-size: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .rvc-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+        grid-gap: 5px;
+        justify-content: center;
+    }
 }
 
 @media only screen and (min-width: 64.063em){
-    
+    .reviews {
+        margin: 100px 0px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rv-title {
+        font-family: 'DM';
+        font-size: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .rvc-grid {
+        margin: 0px 40px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+        grid-gap: 5px;
+        justify-content: center;
+    }
 }

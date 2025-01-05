@@ -12,6 +12,10 @@
         justify-content: flex-start;
         align-items: center;
     }
+
+    .purple {
+        color: #5a45fe;
+    }
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
