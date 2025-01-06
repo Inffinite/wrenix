@@ -35,7 +35,7 @@ import { ref, onMounted } from "vue";
         </div>   
         <div class="f-line"></div>
         <div class="f-ct">
-            <div class="f-inc">@2024 Wrenix Inc. All rights reserved.</div>
+            <div class="f-inc">@2025 Wrenix LTD. All rights reserved.</div>
         </div>
     </div>
 </template>

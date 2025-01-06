@@ -1,0 +1,289 @@
+@media only screen {
+    .about {
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ab-title {
+        font-family: 'DM';
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .ab-subtitle {
+        font-size: 14px;
+        text-align: center;
+        font-family: 'RR';
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .about-ct {
+        border-radius: 30px;
+        margin: 30px 10px;
+        background-color: #f0f0f0;
+        padding-top: 50px;
+        padding-bottom: 0px;
+        width: 100%;
+        display: block;
+    }
+
+    .b-title {
+        font-family: 'RB';
+        color: black;
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+    .b-subtitle {
+        margin: 10px 40px;
+        font-size: 16px;
+        font-family: 'RR';
+        color: rgb(94, 94, 94);
+    }
+
+    .ab-card {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .b-img-ct {
+        margin-top: 10px;
+    }
+
+    .b-img {
+        width: 300px;
+        height: auto;
+    }
+
+    .b-img-info {
+        width: 100%;
+    }
+
+    .blur-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 62%;
+        background: linear-gradient(to top, #f0f0f0, #f0f0f0, transparent);
+        filter: blur(8px);
+    }
+
+    .b-btn {
+        margin-top: 10px;
+        outline: none;
+        border: none;
+        background-color: #5a45fe;
+        color: white;
+        border-radius: 50px;
+        padding: 10px 20px;
+        font-family: 'RR';
+        font-size: 14px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em){
+    .about {
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ab-title {
+        font-family: 'DM';
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .ab-subtitle {
+        font-size: 20px;
+        text-align: center;
+        font-family: 'RR';
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .about-ct {
+        border-radius: 30px;
+        margin: 50px 20px;
+        background-color: #f0f0f0;
+        padding-top: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 0px;
+        width: 100%;
+    }
+
+    .about-wr {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+        grid-gap: 20px;
+        justify-content: center;
+    }
+
+    .b-title {
+        font-family: 'RB';
+        color: black;
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+    .b-subtitle {
+        margin: 10px 10px;
+        font-size: 16px;
+        font-family: 'RR';
+        color: rgb(94, 94, 94);
+    }
+
+    .ab-card {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .b-img-ct {
+        margin-top: 10px;
+    }
+
+    .b-img {
+        width: 200px;
+        height: auto;
+    }
+
+    .b-img-info {
+        width: 100%;
+    }
+
+    .blur-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 62%;
+        background: linear-gradient(to top, #f0f0f0, #f0f0f0, transparent);
+        filter: blur(8px);
+    }
+
+    .b-btn {
+        margin-top: 10px;
+        outline: none;
+        border: none;
+        background-color: #5a45fe;
+        color: white;
+        border-radius: 50px;
+        padding: 10px 20px;
+        font-family: 'RR';
+        font-size: 14px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 64.063em){
+    .about {
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ab-title {
+        font-family: 'DM';
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .ab-subtitle {
+        font-size: 20px;
+        text-align: center;
+        font-family: 'RR';
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .about-ct {
+        border-radius: 30px;
+        margin: 50px 100px;
+        background-color: #f0f0f0;
+        padding-top: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 0px;
+        width: 100%;
+    }
+
+    .about-wr {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+        grid-gap: 50px;
+        justify-content: center;
+    }
+
+    .b-title {
+        font-family: 'RB';
+        color: black;
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+    .b-subtitle {
+        margin: 10px 10px;
+        font-size: 16px;
+        font-family: 'RR';
+        color: rgb(94, 94, 94);
+    }
+
+    .ab-card {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .b-img-ct {
+        margin-top: 10px;
+    }
+
+    .b-img {
+        width: 300px;
+        height: auto;
+    }
+
+    .b-img-info {
+        width: 100%;
+    }
+
+    .blur-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 62%;
+        background: linear-gradient(to top, #f0f0f0, #f0f0f0, transparent);
+        filter: blur(8px);
+    }
+
+    .b-btn {
+        margin-top: 10px;
+        outline: none;
+        border: none;
+        background-color: #5a45fe;
+        color: white;
+        border-radius: 50px;
+        padding: 10px 20px;
+        font-family: 'RR';
+        font-size: 14px;
+        cursor: pointer;
+    }
+}
