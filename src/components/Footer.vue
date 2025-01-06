@@ -4,7 +4,7 @@ import { ref, onMounted } from "vue";
 
 <template>
     <div class="footer">
-        <div class="foot-wr">
+        <!-- <div class="foot-wr">
             <div class="container f-desktop">
                 <div class="f-foot f-desktop">
                     <div class="container">
@@ -32,7 +32,7 @@ import { ref, onMounted } from "vue";
                         </div>
                     </div>
             </div>
-        </div>   
+        </div>    -->
         <div class="f-line"></div>
         <div class="f-ct">
             <div class="f-inc">@2025 Wrenix LTD. All rights reserved.</div>

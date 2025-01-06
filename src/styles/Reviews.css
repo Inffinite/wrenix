@@ -64,7 +64,7 @@
 
 @media only screen and (min-width: 64.063em){
     .reviews {
-        margin: 100px 0px;
+        margin: 60px 0px;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -81,10 +81,11 @@
     }
 
     .rvc-grid {
-        margin: 0px 40px;
+        margin: 0px 150px;
         display: grid;
         grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
         grid-gap: 5px;
         justify-content: center;
+        align-items: center;
     }
 }

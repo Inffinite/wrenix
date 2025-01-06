@@ -32,7 +32,7 @@ function openLink() {
           </div>
           <div class="container">
             <button class="l-btn">
-              Work With Us
+              Talk To Us
             </button>
           </div>
         </div>

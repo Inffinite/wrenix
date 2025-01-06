@@ -1,4 +1,9 @@
 <script setup>
+    import { ref } from "vue";
+
+    function openNewTab(url) {
+        window.open(url, '_blank', 'noopener noreferrer');
+    }
 </script>
 
 <template>
@@ -20,7 +25,7 @@
                                     <div class="b-subtitle">
                                         Mpesa transaction fees calculator android application.
                                     </div>
-                                    <button class="b-btn">Learn more</button>
+                                    <button @click="openNewTab('https://play.google.com/store/apps/details?id=com.wrenix.mpesafees&hl=en')" class="b-btn">Learn more</button>
                                 </div>
                             </div>
                             
@@ -32,14 +37,14 @@
                     <div class="container">
                         <div class="ab-card">
                             <div class="b-img-ct">
-                                <img src="../assets/mpesa-fees-phone-mockup2.png" alt="Goose Grid" class="b-img">
+                                <img src="../assets/pihole-mockup2.png" alt="Goose Grid" class="b-img">
                                 
                                 <div class="b-img-info">
                                     <div class="b-title">Pihole Manager</div>
                                     <div class="b-subtitle">
                                         Pihole DNS sinkhole manager application.
                                     </div>
-                                    <button class="b-btn">Learn more</button>
+                                    <button @click="openNewTab('https://play.google.com/store/apps/details?id=com.shwyfft.piholemanager&hl=en')" class="b-btn">Learn more</button>
                                 </div>
                             </div>
                             
@@ -58,7 +63,7 @@
                                     <div class="b-subtitle">
                                         KPLC electricity usage and purchase tracker.
                                     </div>
-                                    <button class="b-btn">Learn more</button>
+                                    <button @click="openNewTab('https://play.google.com/store/apps/details?id=com.wrenix.goosegrid&hl=en')" class="b-btn">Learn more</button>
                                 </div>
                             </div>
                             

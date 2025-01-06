@@ -29,7 +29,7 @@ const reviews = ref(
         <div class="reviews">
             <div class="rv-content">
                 <div class="rv-title">
-                    <span class="purple">Satisfied Customers</span> Are Our Best Ads
+                    <span class="purple">Satisfied Customers</span><br>Are Our Best Ads
                 </div>
                 <div class="rvc-grid">
                     <div v-for="review in reviews" :key="review.id" class="review-card">

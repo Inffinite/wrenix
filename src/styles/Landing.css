@@ -28,10 +28,13 @@
 
     .l-btn {
         margin-top: 30px;
+        margin-left: 40px;
+        margin-right: 40px;
         outline: none;
         border: none;
         background-color: #5a45fe;
-        padding: 10px 25px;
+        padding: 15px 30px;
+        width: 100%;
         font-family: 'RM';
         color: white;
         font-size: 14px;
@@ -82,7 +85,7 @@
 
 @media only screen and (min-width: 64.063em) {
     .landing {
-        margin-top: 100px;
+        margin-top: 110px;
     }
 
     .glow {
@@ -92,8 +95,8 @@
     .l-title {
         color: black;
         text-align: center;
-        font-size: 80px;
-        width: 700px;
+        font-size: 90px;
+        width: 750px;
         font-family: 'DM';
         line-height: 1.0;
     }
@@ -113,9 +116,10 @@
         outline: none;
         border: none;
         background-color: #5a45fe;
-        padding: 10px 25px;
+        padding: 15px 40px;
         font-family: 'RM';
         color: white;
+        width: fit-content;
         font-size: 16px;
         border-radius: 50px;
         cursor: pointer;
