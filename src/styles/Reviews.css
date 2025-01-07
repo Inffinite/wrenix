@@ -59,6 +59,7 @@
         grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
         grid-gap: 5px;
         justify-content: center;
+        align-items: center;
     }
 }
 

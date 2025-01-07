@@ -42,7 +42,7 @@
                                 <div class="b-img-info">
                                     <div class="b-title">Pihole Manager</div>
                                     <div class="b-subtitle">
-                                        Pihole DNS sinkhole manager application.
+                                        Pihole DNS sink hole and ad-block manager application.
                                     </div>
                                     <button @click="openNewTab('https://play.google.com/store/apps/details?id=com.shwyfft.piholemanager&hl=en')" class="b-btn">Learn more</button>
                                 </div>

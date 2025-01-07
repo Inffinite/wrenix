@@ -2,6 +2,9 @@
 import Circle from '../components/icons/Circle.vue';
 // import { Rive, Layout } from "@rive-app/canvas";
 import { ref, onMounted } from "vue";
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
 
 onMounted(() => {
   // new Rive({
@@ -15,6 +18,11 @@ onMounted(() => {
 function openLink() {
     window.open("https://wa.link/mapl4a");
 }
+
+function messages(){
+  router.push('/message')
+}
+
 </script>
 
 <template>
@@ -31,7 +39,7 @@ function openLink() {
             </div>
           </div>
           <div class="container">
-            <button class="l-btn">
+            <button @click="messages()" class="l-btn">
               Talk To Us
             </button>
           </div>

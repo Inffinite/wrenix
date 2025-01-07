@@ -129,6 +129,7 @@
         grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
         grid-gap: 20px;
         justify-content: center;
+        align-items: flex-start;
     }
 
     .b-title {
@@ -214,7 +215,7 @@
 
     .about-ct {
         border-radius: 30px;
-        margin: 50px 100px;
+        margin: 30px 60px;
         background-color: #f0f0f0;
         padding-top: 50px;
         padding-left: 100px;

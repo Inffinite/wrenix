@@ -1,3 +1,190 @@
-.process {
-    
+@media only screen {
+    .process {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .process-ct {
+        border-radius: 30px;
+        margin: 0px 10px;
+        background: rgb(76,53,255);
+        background: linear-gradient(90deg, rgba(76,53,255,1) 0%, rgba(90,69,254,1) 50%, rgba(68,44,255,1) 100%);
+        padding-top: 70px;
+        /* padding-left: 100px;
+        padding-right: 100px; */
+        padding-bottom: 60px;
+        width: 100%;
+    }
+
+    .process-wr {
+        display: block;
+        justify-content: center;
+    }
+
+    .p-grp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p-img {
+        height: 90px;
+        width: auto;
+    }
+
+    .p-title {
+        font-size: 25px;
+        font-family: 'RB';
+        color: white;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .p-subtitle {
+        font-family: 'RR';
+        color: white;
+        margin-top: 15px;
+        font-size: 16px;
+        text-align: center;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .p-grp2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0px 20px;
+    }
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em){
+    .process {
+        margin-top: 0px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .process-ct {
+        border-radius: 30px;
+        margin: 0px 20px;
+        background: rgb(76,53,255);
+        background: linear-gradient(90deg, rgba(76,53,255,1) 0%, rgba(90,69,254,1) 50%, rgba(68,44,255,1) 100%);
+        padding-top: 70px;
+        /* padding-left: 100px;
+        padding-right: 100px; */
+        padding-bottom: 60px;
+        width: 100%;
+    }
+
+    .process-wr {
+        display: block;
+        justify-content: center;
+    }
+
+    .p-grp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p-img {
+        height: 120px;
+        width: auto;
+    }
+
+    .p-title {
+        font-size: 30px;
+        font-family: 'RB';
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .p-subtitle {
+        font-family: 'RR';
+        color: white;
+        margin-top: 15px;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+    .p-grp2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0px 20px;
+    }
+}
+
+@media only screen and (min-width: 64.063em){
+    .process {
+        margin-top: 0px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .process-ct {
+        border-radius: 30px;
+        margin: 0px 60px;
+        background: rgb(76,53,255);
+        background: linear-gradient(90deg, rgba(76,53,255,1) 0%, rgba(90,69,254,1) 50%, rgba(68,44,255,1) 100%);
+        padding-top: 70px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 60px;
+        width: 100%;
+    }
+
+    .process-wr {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 3 columns of equal width */
+        grid-gap: 50px;
+        justify-content: center;
+    }
+
+    .p-grp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p-img {
+        height: 120px;
+        width: auto;
+    }
+
+    .p-title {
+        margin: 0;
+        font-size: 30px;
+        font-family: 'RB';
+        color: white;
+    }
+
+    .p-subtitle {
+        font-family: 'RR';
+        color: white;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .p-grp2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+        margin: 0px 30px;
+    }
 }

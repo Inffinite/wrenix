@@ -5,20 +5,20 @@ const reviews = ref(
         {
             "id": 1,
             "review": "Fantastic service! They brought our vision to life with a sleek, intuitive app. Ongoing support after launch has been excellent. Highly recommend them!",
-            "username": "Esther",
-            "place": "Google Play Store",
+            "username": "Gladys",
+            "place": "Finance",
         },
         {
             "id": 2,
             "review": "Great experience! The team is professional, delivers on time, and provides excellent post-launch support. The app is user-friendly, and they truly understand our needs.",
-            "username": "John the Ripper",
-            "place": "Google Play Store",
+            "username": "Jack",
+            "place": "UX",
         },
         {
             "id": 3,
-            "review": "I love your dedication to simple yet functional interfaces.",
-            "username": "Mrs Grinch",
-            "place": "Google Play Store",
+            "review": "Great product with excellent customer support. They were very helpful in resolving a recent issue at a moment's notice. Would highly reccommend.",
+            "username": "Lucy",
+            "place": "Finance",
         },
     ]
 );

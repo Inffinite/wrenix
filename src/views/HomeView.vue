@@ -9,7 +9,7 @@ import Footer from '../components/Footer.vue';
 import Faq from '../components/Faq.vue';
 import About from '../components/About.vue';
 // import Dev from '../components/Dev.vue';
-// import Process from '../components/Process.vue';
+import Process from '../components/Process.vue';
 
 </script>
 
@@ -19,8 +19,9 @@ import About from '../components/About.vue';
       <Nav />
       <Landing />
       <About/>
-      <!-- <Process /> -->
+      
       <Reviews />
+      <Process />
       <Faq/>
       <Footer />
       <!-- <Dev /> -->
